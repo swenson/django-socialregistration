@@ -63,8 +63,9 @@ Include ``django.core.context_processors.request`` in your TEMPLATE_CONTEXT_PROC
 
 ::
 
-	TEMPLATE_CONTEXT_PROESSORS = (
+	TEMPLATE_CONTEXT_PROCESSORS = (
         'django.core.context_processors.request',
+        'django.contrib.auth.context_processors.auth',
 	)
 
 .. note::
